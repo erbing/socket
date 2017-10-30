@@ -1,0 +1,28 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "socket.io's demo",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm i --registry=https://registry.npm.taobao.org",
+    "dev": "node ./build/webpack.server-config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "socket.io": "2.0.1",
+    "vue": "2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erbing/socket.git"
+  },
+  "author": "zigzag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erbing/socket/issues"
+  },
+  "homepage": "https://github.com/erbing/socket#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
