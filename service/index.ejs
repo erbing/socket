@@ -22,5 +22,16 @@
 
     <button>输入</button>
 
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        window.onload = function(){
+            // 创建链接
+            var socket = io()
+
+            socket.on('connect', function(){
+                socket.emit('join')
+            })
+        }
+    </script>
 </body>
 </html>
